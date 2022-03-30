@@ -1,6 +1,6 @@
 # ifm-syntax README
 
-This is the README for your extension "ifm-syntax". After writing up a brief description, we recommend including the following sections.
+Syntax highlights for the [Interactive Fiction Mapper](https://ifm.readthedocs.io/en/latest/) language.
 
 ## Features
 
