@@ -1,0 +1,25 @@
+{
+    "name": "ifm-syntax",
+    "displayName": "IFM Syntax",
+    "description": "Interactive Fiction Mapper syntax highlighting support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ifm",
+            "aliases": ["ifm", "ifm"],
+            "extensions": [".ifm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ifm",
+            "scopeName": "source.ifm",
+            "path": "./syntaxes/ifm.tmLanguage.json"
+        }]
+    }
+}
