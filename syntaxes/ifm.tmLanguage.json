@@ -6,15 +6,36 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#constants"
+		},
+		{
 			"include": "#strings"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.ifm",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.ifm",
+					"match": "\\b(room|task|item|link|join)\\b"
+				},
+				{
+					"name": "keyword.other.unit.ifm",
+					"match": "\\b(tag|dir|link|join|exit|note|score|need|after|before|leave all|leave|go|cmd from|cmd to|cmd|oneway|length|start|finish|nodrop|nolink|nopath|style)\\b"
+				},
+				{
+					"name": "keyword.other.unit.ifm",
+					"match": "\\b(tag|in|note|score|hidden|keep with|keep until|keep|ignore|given|lost|need|after|before|finish|style)\\b"
+				},
+				{
+					"name": "keyword.other.unit.ifm",
+					"match": "\\b(tag|in|need|after|follow|do|get|give|lose|drop all|drop|until|goto|safe|ignore|finish|score|note|cmd none|cmd|style)\\b"
+				},
+				{
+					"name": "header.ifm",
+					"match": "\\b(map|title)\\b"
+					
+				}]
 		},
 		"strings": {
 			"name": "string.quoted.double.ifm",
@@ -24,6 +45,18 @@
 				{
 					"name": "constant.character.escape.ifm",
 					"match": "\\\\."
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.language",
+					"match": "\\b(n|s|e|w|up|down|u|d|last|it|them)\\b"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\b\\d+\\b"
 				}
 			]
 		}
