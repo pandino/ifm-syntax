@@ -21,7 +21,7 @@
 				},
 				{
 					"name": "keyword.other.unit.ifm",
-					"match": "\\b(tag|dir|link|join|exit|note|score|need|after|before|leave all|leave|go|cmd from|cmd to|cmd|oneway|length|start|finish|nodrop|nolink|nopath|style)\\b"
+					"match": "\\b(tag|dir|from|link|join|exit|note|score|need|after|before|leave all|leave|go|cmd from|cmd to|cmd|oneway|length|start|finish|nodrop|nolink|nopath|style)\\b"
 				},
 				{
 					"name": "keyword.other.unit.ifm",
@@ -52,7 +52,7 @@
 			"patterns": [
 				{
 					"name": "constant.language",
-					"match": "\\b(n|s|e|w|up|down|u|d|last|it|them)\\b"
+					"match": "\\b(n|s|e|w|ne|nw|se|sw|up|down|u|d|last|it|them)\\b"
 				},
 				{
 					"name": "constant.numeric",
